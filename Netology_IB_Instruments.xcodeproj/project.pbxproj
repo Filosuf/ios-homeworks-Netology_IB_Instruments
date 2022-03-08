@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CC503B527D7EC3900BAD3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC503B427D7EC3900BAD3C1 /* AppDelegate.swift */; };
-		7CC503B727D7EC3900BAD3C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC503B627D7EC3900BAD3C1 /* SceneDelegate.swift */; };
-		7CC503B927D7EC3900BAD3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC503B827D7EC3900BAD3C1 /* ViewController.swift */; };
-		7CC503BC27D7EC3900BAD3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC503BA27D7EC3900BAD3C1 /* Main.storyboard */; };
-		7CC503BE27D7EC3B00BAD3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC503BD27D7EC3B00BAD3C1 /* Assets.xcassets */; };
-		7CC503C127D7EC3B00BAD3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC503BF27D7EC3B00BAD3C1 /* LaunchScreen.storyboard */; };
+		7C189E3727C82CCB00E683BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C189E3627C82CCB00E683BF /* AppDelegate.swift */; };
+		7C189E3927C82CCB00E683BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C189E3827C82CCB00E683BF /* SceneDelegate.swift */; };
+		7C189E4027C82CCE00E683BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C189E3F27C82CCE00E683BF /* Assets.xcassets */; };
+		7C189E4327C82CCE00E683BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C189E4127C82CCE00E683BF /* LaunchScreen.storyboard */; };
+		7C189E4B27C82EC900E683BF /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C189E4A27C82EC900E683BF /* ProfileView.xib */; };
+		7C189E4D27C836F900E683BF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C189E4C27C836F900E683BF /* ProfileView.swift */; };
+		7C189E4F27C83DE800E683BF /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C189E4E27C83DE800E683BF /* Profile.storyboard */; };
+		7C189E5127C83FD400E683BF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C189E5027C83FD400E683BF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CC503B127D7EC3900BAD3C1 /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CC503B427D7EC3900BAD3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CC503B627D7EC3900BAD3C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CC503B827D7EC3900BAD3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CC503BB27D7EC3900BAD3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CC503BD27D7EC3B00BAD3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CC503C027D7EC3B00BAD3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7CC503C227D7EC3B00BAD3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C189E3327C82CCB00E683BF /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C189E3627C82CCB00E683BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C189E3827C82CCB00E683BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C189E3F27C82CCE00E683BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C189E4227C82CCE00E683BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C189E4427C82CCE00E683BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C189E4A27C82EC900E683BF /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		7C189E4C27C836F900E683BF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7C189E4E27C83DE800E683BF /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		7C189E5027C83FD400E683BF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Netology_IB_Instruments/ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7CC503AE27D7EC3900BAD3C1 /* Frameworks */ = {
+		7C189E3027C82CCB00E683BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +41,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7CC503A827D7EC3900BAD3C1 = {
+		7C189E2A27C82CCB00E683BF = {
 			isa = PBXGroup;
 			children = (
-				7CC503B327D7EC3900BAD3C1 /* Netology_IB_Instruments */,
-				7CC503B227D7EC3900BAD3C1 /* Products */,
+				7C189E5227C8400F00E683BF /* ProfileView */,
+				7C189E4E27C83DE800E683BF /* Profile.storyboard */,
+				7C189E5027C83FD400E683BF /* ProfileViewController.swift */,
+				7C189E3527C82CCB00E683BF /* Netology_IB_Instruments */,
+				7C189E3427C82CCB00E683BF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7CC503B227D7EC3900BAD3C1 /* Products */ = {
+		7C189E3427C82CCB00E683BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CC503B127D7EC3900BAD3C1 /* Netology_IB_Instruments.app */,
+				7C189E3327C82CCB00E683BF /* Netology_IB_Instruments.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CC503B327D7EC3900BAD3C1 /* Netology_IB_Instruments */ = {
+		7C189E3527C82CCB00E683BF /* Netology_IB_Instruments */ = {
 			isa = PBXGroup;
 			children = (
-				7CC503B427D7EC3900BAD3C1 /* AppDelegate.swift */,
-				7CC503B627D7EC3900BAD3C1 /* SceneDelegate.swift */,
-				7CC503B827D7EC3900BAD3C1 /* ViewController.swift */,
-				7CC503BA27D7EC3900BAD3C1 /* Main.storyboard */,
-				7CC503BD27D7EC3B00BAD3C1 /* Assets.xcassets */,
-				7CC503BF27D7EC3B00BAD3C1 /* LaunchScreen.storyboard */,
-				7CC503C227D7EC3B00BAD3C1 /* Info.plist */,
+				7C189E3627C82CCB00E683BF /* AppDelegate.swift */,
+				7C189E3827C82CCB00E683BF /* SceneDelegate.swift */,
+				7C189E3F27C82CCE00E683BF /* Assets.xcassets */,
+				7C189E4127C82CCE00E683BF /* LaunchScreen.storyboard */,
+				7C189E4427C82CCE00E683BF /* Info.plist */,
 			);
 			path = Netology_IB_Instruments;
+			sourceTree = "<group>";
+		};
+		7C189E5227C8400F00E683BF /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				7C189E4C27C836F900E683BF /* ProfileView.swift */,
+				7C189E4A27C82EC900E683BF /* ProfileView.xib */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CC503B027D7EC3900BAD3C1 /* Netology_IB_Instruments */ = {
+		7C189E3227C82CCB00E683BF /* Netology_IB_Instruments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CC503C527D7EC3B00BAD3C1 /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */;
+			buildConfigurationList = 7C189E4727C82CCE00E683BF /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */;
 			buildPhases = (
-				7CC503AD27D7EC3900BAD3C1 /* Sources */,
-				7CC503AE27D7EC3900BAD3C1 /* Frameworks */,
-				7CC503AF27D7EC3900BAD3C1 /* Resources */,
+				7C189E2F27C82CCB00E683BF /* Sources */,
+				7C189E3027C82CCB00E683BF /* Frameworks */,
+				7C189E3127C82CCB00E683BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +98,25 @@
 			);
 			name = Netology_IB_Instruments;
 			productName = Netology_IB_Instruments;
-			productReference = 7CC503B127D7EC3900BAD3C1 /* Netology_IB_Instruments.app */;
+			productReference = 7C189E3327C82CCB00E683BF /* Netology_IB_Instruments.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7CC503A927D7EC3900BAD3C1 /* Project object */ = {
+		7C189E2B27C82CCB00E683BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					7CC503B027D7EC3900BAD3C1 = {
+					7C189E3227C82CCB00E683BF = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 7CC503AC27D7EC3900BAD3C1 /* Build configuration list for PBXProject "Netology_IB_Instruments" */;
+			buildConfigurationList = 7C189E2E27C82CCB00E683BF /* Build configuration list for PBXProject "Netology_IB_Instruments" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +124,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 7CC503A827D7EC3900BAD3C1;
-			productRefGroup = 7CC503B227D7EC3900BAD3C1 /* Products */;
+			mainGroup = 7C189E2A27C82CCB00E683BF;
+			productRefGroup = 7C189E3427C82CCB00E683BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CC503B027D7EC3900BAD3C1 /* Netology_IB_Instruments */,
+				7C189E3227C82CCB00E683BF /* Netology_IB_Instruments */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CC503AF27D7EC3900BAD3C1 /* Resources */ = {
+		7C189E3127C82CCB00E683BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC503C127D7EC3B00BAD3C1 /* LaunchScreen.storyboard in Resources */,
-				7CC503BE27D7EC3B00BAD3C1 /* Assets.xcassets in Resources */,
-				7CC503BC27D7EC3900BAD3C1 /* Main.storyboard in Resources */,
+				7C189E4B27C82EC900E683BF /* ProfileView.xib in Resources */,
+				7C189E4327C82CCE00E683BF /* LaunchScreen.storyboard in Resources */,
+				7C189E4F27C83DE800E683BF /* Profile.storyboard in Resources */,
+				7C189E4027C82CCE00E683BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CC503AD27D7EC3900BAD3C1 /* Sources */ = {
+		7C189E2F27C82CCB00E683BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC503B927D7EC3900BAD3C1 /* ViewController.swift in Sources */,
-				7CC503B527D7EC3900BAD3C1 /* AppDelegate.swift in Sources */,
-				7CC503B727D7EC3900BAD3C1 /* SceneDelegate.swift in Sources */,
+				7C189E4D27C836F900E683BF /* ProfileView.swift in Sources */,
+				7C189E5127C83FD400E683BF /* ProfileViewController.swift in Sources */,
+				7C189E3727C82CCB00E683BF /* AppDelegate.swift in Sources */,
+				7C189E3927C82CCB00E683BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7CC503BA27D7EC3900BAD3C1 /* Main.storyboard */ = {
+		7C189E4127C82CCE00E683BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7CC503BB27D7EC3900BAD3C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7CC503BF27D7EC3B00BAD3C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CC503C027D7EC3B00BAD3C1 /* Base */,
+				7C189E4227C82CCE00E683BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7CC503C327D7EC3B00BAD3C1 /* Debug */ = {
+		7C189E4527C82CCE00E683BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		7CC503C427D7EC3B00BAD3C1 /* Release */ = {
+		7C189E4627C82CCE00E683BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +290,7 @@
 			};
 			name = Release;
 		};
-		7CC503C627D7EC3B00BAD3C1 /* Debug */ = {
+		7C189E4827C82CCE00E683BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +301,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,11 +313,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7CC503C727D7EC3B00BAD3C1 /* Release */ = {
+		7C189E4927C82CCE00E683BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +328,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,32 +340,32 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CC503AC27D7EC3900BAD3C1 /* Build configuration list for PBXProject "Netology_IB_Instruments" */ = {
+		7C189E2E27C82CCB00E683BF /* Build configuration list for PBXProject "Netology_IB_Instruments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CC503C327D7EC3B00BAD3C1 /* Debug */,
-				7CC503C427D7EC3B00BAD3C1 /* Release */,
+				7C189E4527C82CCE00E683BF /* Debug */,
+				7C189E4627C82CCE00E683BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CC503C527D7EC3B00BAD3C1 /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */ = {
+		7C189E4727C82CCE00E683BF /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CC503C627D7EC3B00BAD3C1 /* Debug */,
-				7CC503C727D7EC3B00BAD3C1 /* Release */,
+				7C189E4827C82CCE00E683BF /* Debug */,
+				7C189E4927C82CCE00E683BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7CC503A927D7EC3900BAD3C1 /* Project object */;
+	rootObject = 7C189E2B27C82CCB00E683BF /* Project object */;
 }

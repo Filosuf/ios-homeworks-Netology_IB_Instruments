@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Netology_IB_Instruments
 //
-//  Created by 1234 on 08.03.2022.
+//  Created by 1234 on 25.02.2022.
 //
 
 import UIKit
